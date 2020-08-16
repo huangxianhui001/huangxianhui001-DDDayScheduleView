@@ -1,0 +1,6 @@
+framework module DDDayScheduleView {
+  umbrella header "DDDayScheduleView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DDDayScheduleView_Example' do
+  pod 'DDDayScheduleView', :path => '../'
+
+  target 'DDDayScheduleView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

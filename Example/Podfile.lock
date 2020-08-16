@@ -1,0 +1,23 @@
+PODS:
+  - DDDayScheduleView (0.1.0):
+    - SnapKit
+  - SnapKit (4.2.0)
+
+DEPENDENCIES:
+  - DDDayScheduleView (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  DDDayScheduleView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DDDayScheduleView: b71b82ab65237c2ebc31db371e5fad98f3d5b2fe
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+
+PODFILE CHECKSUM: 993abb30bef1888f2b2eeea697053819119242db
+
+COCOAPODS: 1.8.4
