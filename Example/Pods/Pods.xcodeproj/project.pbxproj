@@ -54,6 +54,13 @@
 		F1A22128B2D410E955953E0B6997F178 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7597745DD02F02027BEB927801E4E7E2 /* ConstraintDescription.swift */; };
 		F1AE185BFE20AE543B429D60520DC67A /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC92BE130C0A4CE98F06E9D397E55AF /* ConstraintPriorityTarget.swift */; };
 		F24684AE9C0284793F90AABDCD1FA617 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21B4EB2CAC44390D976C65ABE1CE2F5 /* ConstraintOffsetTarget.swift */; };
+		F652C85C24ED42D300E0FAD9 /* DDDayScheduleTimeIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F652C85924ED42D300E0FAD9 /* DDDayScheduleTimeIndicatorView.swift */; };
+		F652C85D24ED42D300E0FAD9 /* DDDayScheduleItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F652C85A24ED42D300E0FAD9 /* DDDayScheduleItemView.swift */; };
+		F652C85E24ED42D300E0FAD9 /* DDDayScheduleBaseLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F652C85B24ED42D300E0FAD9 /* DDDayScheduleBaseLineView.swift */; };
+		F66FBE5F24E91E0300D9286F /* DDDayScheduleViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FBE5E24E91E0300D9286F /* DDDayScheduleViewProtocol.swift */; };
+		F66FBE6124E921E300D9286F /* DDScheduleTimeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FBE6024E921E300D9286F /* DDScheduleTimeInfo.swift */; };
+		F66FBE6924E92AEF00D9286F /* Date+DDExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FBE6824E92AEF00D9286F /* Date+DDExtension.swift */; };
+		F66FBE6D24EA16B700D9286F /* UIEdgeInsets+DDExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FBE6C24EA16B700D9286F /* UIEdgeInsets+DDExtension.swift */; };
 		FC2CBACC0360CC827B23657A4262AA85 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB05D22C92E5A571A653D510E552AC0 /* ConstraintView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
@@ -99,7 +106,7 @@
 		25E34EF5671A453947A4DB0C58A03A48 /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
 		2AB05D22C92E5A571A653D510E552AC0 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
 		2B7AA3BC8DC3807ED69C317EE3900484 /* Pods-DDDayScheduleView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DDDayScheduleView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		31D9206009F00444774E10DA27ACE442 /* Pods_DDDayScheduleView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DDDayScheduleView_Tests.framework; path = "Pods-DDDayScheduleView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31D9206009F00444774E10DA27ACE442 /* Pods_DDDayScheduleView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDDayScheduleView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		348A02DEF852496C37687409DABBC824 /* Pods-DDDayScheduleView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DDDayScheduleView_Example-dummy.m"; sourceTree = "<group>"; };
 		36FE4C76C4107CC53A22403395D404CE /* DDDayScheduleView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DDDayScheduleView-dummy.m"; sourceTree = "<group>"; };
 		3F812B71438F709C9BBB7D4B438DAA8B /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
@@ -126,24 +133,24 @@
 		8A26D91B0E800F3CC711EB9D4B7D643D /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
 		8BA0E15F7A7BE11DD2CD5A0AC572B854 /* DDDayScheduleView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDDayScheduleView-umbrella.h"; sourceTree = "<group>"; };
 		976C6F1D2446B06BB24BDE35EB44FA92 /* Pods-DDDayScheduleView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DDDayScheduleView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		979486118B3E90C08386079D57962701 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		979486118B3E90C08386079D57962701 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C12038B34951B9B002DAB0D5FE023DA /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
 		9C87F70E835D22459F492D40CB584A67 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E22FE8B0096E55C792DF93AF36C8452 /* Pods-DDDayScheduleView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DDDayScheduleView_Example.modulemap"; sourceTree = "<group>"; };
 		A156835F5B20B0DE5962C7DD63E2E761 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
 		A23DE5B5F4B593DDCE0ADE8616B85C5A /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
 		A6F1619E6AE6BAD68A1F802AD244BFAB /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
-		AF511D7D4DF28E590A14537BCB4F5919 /* DDDayScheduleView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DDDayScheduleView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AF511D7D4DF28E590A14537BCB4F5919 /* DDDayScheduleView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DDDayScheduleView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B0A3ECCB7489854CAA077B5B187C912D /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
 		B2A12656157BC29CB51F2534C8EDF360 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
 		B46E43BE3E247AA0F2A46D4509177E31 /* Pods-DDDayScheduleView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DDDayScheduleView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B51997D8F72193BCB8F4C3521AEABE1E /* DDDayScheduleView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DDDayScheduleView.framework; path = DDDayScheduleView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BAC8C6F2433E9529CC34A177FEDB5A17 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B51997D8F72193BCB8F4C3521AEABE1E /* DDDayScheduleView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DDDayScheduleView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAC8C6F2433E9529CC34A177FEDB5A17 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BE8E4C0D28904F2FCC98EF3A53DFD11B /* Pods-DDDayScheduleView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DDDayScheduleView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		BFA57917D5E295BADC0B25F3CDB9C4E8 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
 		C195F9A01BE6E6998BBB33220EB5CCAB /* Pods-DDDayScheduleView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DDDayScheduleView_Tests-Info.plist"; sourceTree = "<group>"; };
-		C266DEFB538101EBEF69010E171A581F /* Pods_DDDayScheduleView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DDDayScheduleView_Example.framework; path = "Pods-DDDayScheduleView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C266DEFB538101EBEF69010E171A581F /* Pods_DDDayScheduleView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDDayScheduleView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C417784A7C0566CA3A4A90F972ECD6E6 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
 		C65BFCA0A21044C1C3E6F663BB5F9B48 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
 		D21B2FDCEA78DB15010A749F9203D21F /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
@@ -151,13 +158,20 @@
 		D7A795CA20F557DCF9F4AC9081935FA3 /* Pods-DDDayScheduleView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DDDayScheduleView_Example-umbrella.h"; sourceTree = "<group>"; };
 		DEF77AF84C2761FF3C974CBD573DA70E /* Pods-DDDayScheduleView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DDDayScheduleView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E21B4EB2CAC44390D976C65ABE1CE2F5 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
-		E3805411737F6B97172D41A9F07F2ACE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E3805411737F6B97172D41A9F07F2ACE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E4313A83DA219A045C038A5E37A2E120 /* Pods-DDDayScheduleView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DDDayScheduleView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		EC0E4E3541BF32A5C4247EA2CC09B4BE /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
 		ED05C0772840EE66B3EB754BEF846F7A /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
 		F4E78388026BE82AAECD3CB38C17AACA /* Pods-DDDayScheduleView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DDDayScheduleView_Example-Info.plist"; sourceTree = "<group>"; };
 		F5C9D6FEF48994711991A348A7B0B99A /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
 		F63DC83113A26BB1DB9ED37E0EE3F512 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
+		F652C85924ED42D300E0FAD9 /* DDDayScheduleTimeIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDDayScheduleTimeIndicatorView.swift; sourceTree = "<group>"; };
+		F652C85A24ED42D300E0FAD9 /* DDDayScheduleItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDDayScheduleItemView.swift; sourceTree = "<group>"; };
+		F652C85B24ED42D300E0FAD9 /* DDDayScheduleBaseLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDDayScheduleBaseLineView.swift; sourceTree = "<group>"; };
+		F66FBE5E24E91E0300D9286F /* DDDayScheduleViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DDDayScheduleViewProtocol.swift; path = DDDayScheduleView/Classes/DDDayScheduleViewProtocol.swift; sourceTree = "<group>"; };
+		F66FBE6024E921E300D9286F /* DDScheduleTimeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DDScheduleTimeInfo.swift; path = DDDayScheduleView/Classes/DDScheduleTimeInfo.swift; sourceTree = "<group>"; };
+		F66FBE6824E92AEF00D9286F /* Date+DDExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Date+DDExtension.swift"; path = "../DDDayScheduleView/Classes/Extension/Date+DDExtension.swift"; sourceTree = "<group>"; };
+		F66FBE6C24EA16B700D9286F /* UIEdgeInsets+DDExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIEdgeInsets+DDExtension.swift"; path = "../DDDayScheduleView/Classes/Extension/UIEdgeInsets+DDExtension.swift"; sourceTree = "<group>"; };
 		F902CDA99715ADA3EC010544308DA63A /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
 		FCFD97F112062A9279D700C04FF12BDD /* Pods-DDDayScheduleView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DDDayScheduleView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FD313B584F4DD046DAD1E1A5DBA2AA9A /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
@@ -231,7 +245,11 @@
 		1F08D94150E89DABC97C8B1DD4FE10D9 /* DDDayScheduleView */ = {
 			isa = PBXGroup;
 			children = (
+				F652C85824ED42D300E0FAD9 /* Private */,
+				F66FBE6724E92AD100D9286F /* Extension */,
 				12D295ABBE5A35AFAA0BE21F1D167764 /* DDDayScheduleView.swift */,
+				F66FBE5E24E91E0300D9286F /* DDDayScheduleViewProtocol.swift */,
+				F66FBE6024E921E300D9286F /* DDScheduleTimeInfo.swift */,
 				B963407742CAE9457FB312240DC3E084 /* Pod */,
 				814B660E041419E293F368E15AFC5F3F /* Support Files */,
 			);
@@ -388,8 +406,27 @@
 				9C87F70E835D22459F492D40CB584A67 /* UILayoutSupport+Extensions.swift */,
 				C91EDAA5CCFDB0CED5792EE230E47FD8 /* Support Files */,
 			);
-			name = SnapKit;
 			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		F652C85824ED42D300E0FAD9 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				F652C85B24ED42D300E0FAD9 /* DDDayScheduleBaseLineView.swift */,
+				F652C85924ED42D300E0FAD9 /* DDDayScheduleTimeIndicatorView.swift */,
+				F652C85A24ED42D300E0FAD9 /* DDDayScheduleItemView.swift */,
+			);
+			name = Private;
+			path = DDDayScheduleView/Classes/Private;
+			sourceTree = "<group>";
+		};
+		F66FBE6724E92AD100D9286F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F66FBE6824E92AEF00D9286F /* Date+DDExtension.swift */,
+				F66FBE6C24EA16B700D9286F /* UIEdgeInsets+DDExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -512,6 +549,7 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = DD;
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
 			};
@@ -581,7 +619,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				837EED5D4C2593B0D57FC13934B57802 /* DDDayScheduleView-dummy.m in Sources */,
+				F66FBE5F24E91E0300D9286F /* DDDayScheduleViewProtocol.swift in Sources */,
 				9F6DCC78A58ED0DD4178FB8921868B62 /* DDDayScheduleView.swift in Sources */,
+				F652C85D24ED42D300E0FAD9 /* DDDayScheduleItemView.swift in Sources */,
+				F652C85C24ED42D300E0FAD9 /* DDDayScheduleTimeIndicatorView.swift in Sources */,
+				F66FBE6D24EA16B700D9286F /* UIEdgeInsets+DDExtension.swift in Sources */,
+				F66FBE6924E92AEF00D9286F /* Date+DDExtension.swift in Sources */,
+				F652C85E24ED42D300E0FAD9 /* DDDayScheduleBaseLineView.swift in Sources */,
+				F66FBE6124E921E300D9286F /* DDScheduleTimeInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -851,6 +896,7 @@
 				PRODUCT_NAME = DDDayScheduleView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -913,8 +959,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -943,6 +988,7 @@
 				PRODUCT_NAME = DDDayScheduleView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -10,10 +10,12 @@ import UIKit
 import DDDayScheduleView
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var dayScheduleView: DDDayScheduleView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+//        let s = DDDayScheduleView.Name
     }
 
     override func didReceiveMemoryWarning() {
