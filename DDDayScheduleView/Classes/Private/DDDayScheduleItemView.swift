@@ -9,5 +9,5 @@ import UIKit
 
 class DDDayScheduleItemView: UIView {
 
-
+    var model: DDDayScheduleViewItemRepresentable?
 }

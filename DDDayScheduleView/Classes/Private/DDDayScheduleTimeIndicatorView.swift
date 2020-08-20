@@ -39,7 +39,7 @@ internal class DDDayScheduleTimeIndicatorView: UIView {
         addSubview(circleView)
         addSubview(lineView)
        
-        tintColor = .red
+        tintColor = .systemRed
         
         timeLabel.snp.makeConstraints { (make) in
             make.left.equalTo(0)

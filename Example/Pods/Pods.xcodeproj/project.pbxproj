@@ -7,65 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		005C1DA8E7379F84AD331F4F95A28A29 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0E4E3541BF32A5C4247EA2CC09B4BE /* ConstraintViewDSL.swift */; };
+		00858F88BC01AC0B4470FF7BC778286E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14FE473E37EFB8571E729F9B375CE60E /* Foundation.framework */; };
+		03A898CBBC0B41E49673DAC5E21628E0 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FD64C66CE4DDF29ECD54691C69DE81 /* ConstraintAttributes.swift */; };
 		044DF5B0E5B482DEA32926CB2C9010C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14FE473E37EFB8571E729F9B375CE60E /* Foundation.framework */; };
-		08070F38A2CC2A7BD08E78834AE1260D /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F812B71438F709C9BBB7D4B438DAA8B /* ConstraintMaker.swift */; };
-		11E1D4E24611CE4AB54216A650C3BC14 /* DDDayScheduleView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BA0E15F7A7BE11DD2CD5A0AC572B854 /* DDDayScheduleView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		065BCA1F14FDB6A0C2D388A928086D1A /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD313B584F4DD046DAD1E1A5DBA2AA9A /* SnapKit-dummy.m */; };
+		088D0DC87726FB8E38A0E60273F2B383 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA20D94D18B89BCA5CF2600878CAB42 /* ConstraintMakerFinalizable.swift */; };
+		0CC74188B6504F63EF8856C913016983 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21B4EB2CAC44390D976C65ABE1CE2F5 /* ConstraintOffsetTarget.swift */; };
 		18F2AEE585E65E3F403FACDCE2463597 /* Pods-DDDayScheduleView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4313A83DA219A045C038A5E37A2E120 /* Pods-DDDayScheduleView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A15844BC591A1942E21A941CD92A628 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5902768DE34E1627B020F4B2FB7BBBE /* ConstraintLayoutSupportDSL.swift */; };
 		1F47AF8C83BBD78190337287E65DDE1E /* Pods-DDDayScheduleView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7A795CA20F557DCF9F4AC9081935FA3 /* Pods-DDDayScheduleView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2331C0061A121D89F1B3A3453464F603 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3D1E72289667D4BA6D946E25320953 /* LayoutConstraintItem.swift */; };
-		25D4523AB3607694F0F9F6AB8842E627 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A26D91B0E800F3CC711EB9D4B7D643D /* ConstraintMakerEditable.swift */; };
-		2765788FDDEC4985B253A4D8F7344214 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21B2FDCEA78DB15010A749F9203D21F /* ConstraintRelation.swift */; };
-		2773F42C17C73D0E99ED7F8F3E8550C2 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = A156835F5B20B0DE5962C7DD63E2E761 /* Typealiases.swift */; };
-		29DE21382A135421341067C40BA280B7 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F902CDA99715ADA3EC010544308DA63A /* ConstraintMakerExtendable.swift */; };
-		2DC831D7517FEA26534C4B6016C526C6 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA85F3D7C8DB385CE531CD6CB85D041 /* SnapKit.framework */; };
-		33773CBEAEC69B01BE2D81C8BCAD2B7E /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62526768B0933882A844A3CC52757009 /* ConstraintLayoutSupport.swift */; };
-		376F50A7A7BB1838713AE716C3007F13 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD313B584F4DD046DAD1E1A5DBA2AA9A /* SnapKit-dummy.m */; };
-		42E2F0BAF8363F1F28D8C2B562E08A90 /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F1619E6AE6BAD68A1F802AD244BFAB /* ConstraintMakerPriortizable.swift */; };
-		45ECD847416BEDD99B57FE39892F3D83 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED05C0772840EE66B3EB754BEF846F7A /* ConstraintMakerRelatable.swift */; };
+		2316D8B8CC732A7990337751AD9D09C4 /* DDDayScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAE46DFA5240C855DAACEE9ECED7F01 /* DDDayScheduleView.swift */; };
+		293F24DF4C745F2EC8AB0492DD02BD31 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A26D91B0E800F3CC711EB9D4B7D643D /* ConstraintMakerEditable.swift */; };
+		2A5E150858B4283E52C2953EA7883F23 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C9D6FEF48994711991A348A7B0B99A /* ConstraintView.swift */; };
+		2C3BE1378DEB08B714B0CB51AA6FB177 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14FE473E37EFB8571E729F9B375CE60E /* Foundation.framework */; };
+		381AFA4BB7FB7F7B6C95C62F0698C9C4 /* DDDayScheduleView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 678CE2642C614AA567CD595AB7F1462A /* DDDayScheduleView-dummy.m */; };
+		4236D7F09AEE0A606B475213F1E28BF7 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA57917D5E295BADC0B25F3CDB9C4E8 /* ConstraintRelatableTarget.swift */; };
+		48D712BB6A0DC368202A6735C85E7460 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21B2FDCEA78DB15010A749F9203D21F /* ConstraintRelation.swift */; };
+		4E9FB0DDD65E36AE3BFA57983CB5A00E /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EFBC475A6AD866A5083DC5F61B3563 /* LayoutConstraint.swift */; };
+		56C9AE73D3E096DF9D8BBCB40E6FB964 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F902CDA99715ADA3EC010544308DA63A /* ConstraintMakerExtendable.swift */; };
+		5A13A4225C46F5415274ABE9AEAE7346 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5902768DE34E1627B020F4B2FB7BBBE /* ConstraintLayoutSupportDSL.swift */; };
+		5B79678B5F530544E06EBA6E23CDEC11 /* DDDayScheduleBaseLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7BADF55AF8F91607AF2EAFFF54447 /* DDDayScheduleBaseLineView.swift */; };
 		650A2566E65C18503DEDEBDABEB9A240 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14FE473E37EFB8571E729F9B375CE60E /* Foundation.framework */; };
-		6B3AD2A0A19B0CCC0920546FD867C850 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23DE5B5F4B593DDCE0ADE8616B85C5A /* ConstraintLayoutGuide.swift */; };
-		6EBAE4160DFF7BD1D28E9CFBEC829C3D /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161FED143DE8DD1AC41D71D22AEA464B /* ConstraintPriority.swift */; };
-		7C66BB7AE9365E579D9FC564B32EF4FF /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0E4E3541BF32A5C4247EA2CC09B4BE /* ConstraintViewDSL.swift */; };
-		837EED5D4C2593B0D57FC13934B57802 /* DDDayScheduleView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FE4C76C4107CC53A22403395D404CE /* DDDayScheduleView-dummy.m */; };
-		8A16BAE0A6134468011FE9C17B07E56A /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A3ECCB7489854CAA077B5B187C912D /* ConstraintInsets.swift */; };
-		8E939497E0BD3AA477B1AB009A6297E6 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA57917D5E295BADC0B25F3CDB9C4E8 /* ConstraintRelatableTarget.swift */; };
-		96474929C19DCA7B3A23D4E2ACFB719A /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C9D6FEF48994711991A348A7B0B99A /* ConstraintView.swift */; };
-		9A82EEEE83AB9101594C81AE7330E6C1 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FED189CE3C9928FFAF66C86038ABFDB1 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9EF690CD2A3B19A3965BF3E28B402BA4 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C5937AEDD4F642E09E0A1980BCC652 /* Debugging.swift */; };
-		9F6DCC78A58ED0DD4178FB8921868B62 /* DDDayScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D295ABBE5A35AFAA0BE21F1D167764 /* DDDayScheduleView.swift */; };
-		A0E9FE5FD2A5AFCF03192E1D430E27BC /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784E71663FDE42A52D425DA752FC02E7 /* ConstraintConstantTarget.swift */; };
-		A940980E130B4AA4F37984798C937DDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14FE473E37EFB8571E729F9B375CE60E /* Foundation.framework */; };
-		B5D6C62E5EA757CD04AC0745B4B99FCC /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FD64C66CE4DDF29ECD54691C69DE81 /* ConstraintAttributes.swift */; };
-		C636A0F598BDFA3CB44E07C16BBE99EA /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C87F70E835D22459F492D40CB584A67 /* UILayoutSupport+Extensions.swift */; };
-		C6FC3F76BD681D71C2C9A498E3D7BE86 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA20D94D18B89BCA5CF2600878CAB42 /* ConstraintMakerFinalizable.swift */; };
-		C8DED8191FC517CBD36C7A24AEF9EE86 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C417784A7C0566CA3A4A90F972ECD6E6 /* Constraint.swift */; };
+		6A0344DFB2FAA0FECC0F43D5605C2A6D /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63DC83113A26BB1DB9ED37E0EE3F512 /* ConstraintDSL.swift */; };
+		6A682C0EF763DD55DE2D39DF57403DEE /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = A156835F5B20B0DE5962C7DD63E2E761 /* Typealiases.swift */; };
+		6A7FBE83D2F5BE6435D16B42F5E9BCDE /* DDDayScheduleView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D801B7D99C70CB381942139C0758B2E3 /* DDDayScheduleView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F9818B0D1A76A4D932EE8766443449E /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C87F70E835D22459F492D40CB584A67 /* UILayoutSupport+Extensions.swift */; };
+		7161990EB39F150FB042E605C32DA3E7 /* DDDayScheduleViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1ECCD280B6DF12C2F993D935BA67428 /* DDDayScheduleViewProtocol.swift */; };
+		71D5399D4A7B2576D3E734E2518CD7F1 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9E8324D0994261E310D8C9ABB5015C /* ConstraintLayoutGuideDSL.swift */; };
+		7A2A83AAC9932323879EBB423824C64F /* UIView+DDExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9F150439DB6255AD1F95AD0270C5A0 /* UIView+DDExtension.swift */; };
+		7D6A414B19886EDCAFFFBFB60739245B /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F812B71438F709C9BBB7D4B438DAA8B /* ConstraintMaker.swift */; };
+		7E64FA03F17E1DEEC8BEB2999746F097 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A3ECCB7489854CAA077B5B187C912D /* ConstraintInsets.swift */; };
+		890B4A3D5DDCC6B1945D65E68ACF5F89 /* UIEdgeInsets+DDExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F874327FF5B46C6922650DF4D1B6D8D5 /* UIEdgeInsets+DDExtension.swift */; };
+		987D4F1C92D1E15DAA630A42A973B4C2 /* DDDayScheduleItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2588B10ADEDC81091B6AC25999FDAF74 /* DDDayScheduleItemView.swift */; };
+		A0DBA5AD2AED0CFCD8C57E72B9CC21BC /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C12038B34951B9B002DAB0D5FE023DA /* ConstraintMultiplierTarget.swift */; };
+		AB8537760CDE552312D6901FF225DC4A /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784E71663FDE42A52D425DA752FC02E7 /* ConstraintConstantTarget.swift */; };
+		ABF0F27FD1B1F79C0C6A3DAF6FD23A00 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A533BD0DE17143457FB42BF7749CDD /* ConstraintConfig.swift */; };
+		AE93CD450386E8B3142F02F9238C010A /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC92BE130C0A4CE98F06E9D397E55AF /* ConstraintPriorityTarget.swift */; };
+		B596468CE13C585FEB72E808CF5D7FE9 /* DDScheduleEditMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EEF2DB6E8652D3E59A94C7D750D1BB /* DDScheduleEditMaskView.swift */; };
+		B9C3F28C8C4A4109FFB6DC4B57D429EA /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A12656157BC29CB51F2534C8EDF360 /* ConstraintInsetTarget.swift */; };
+		C31431E6132AB7C3D4457E9D91F1A28A /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144DAF3614C757BDAABBA78E4B4866FC /* ConstraintLayoutGuide+Extensions.swift */; };
+		C58D62F1A91F307A8E6AA7A2BDA5F634 /* Date+DDExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963937C7D6213D4E755A6D9FACBD58F8 /* Date+DDExtension.swift */; };
+		C8104DBBB52D9D379518CD8B54B5044E /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23DE5B5F4B593DDCE0ADE8616B85C5A /* ConstraintLayoutGuide.swift */; };
+		C8354BB089C01D5600A7FB156BC38CDE /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB05D22C92E5A571A653D510E552AC0 /* ConstraintView+Extensions.swift */; };
 		C9C3DD59FFEDD44619BF5ABD6D8CBE64 /* Pods-DDDayScheduleView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8775C1193581FD9D7E2AC0E4BDAA13B5 /* Pods-DDDayScheduleView_Tests-dummy.m */; };
-		CC49F0B5092BADCA926DFE11DBE8119E /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EFBC475A6AD866A5083DC5F61B3563 /* LayoutConstraint.swift */; };
-		CD9CB7C486A7E371D276E19CC13F025B /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9E8324D0994261E310D8C9ABB5015C /* ConstraintLayoutGuideDSL.swift */; };
-		D0BFFF913FD9E01F523DB5059AB0E916 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63DC83113A26BB1DB9ED37E0EE3F512 /* ConstraintDSL.swift */; };
+		CB41196B446382C313AC284E6054D438 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3D1E72289667D4BA6D946E25320953 /* LayoutConstraintItem.swift */; };
+		D178C5B95DC7490CB536D8D2DDF15119 /* DDScheduleTimeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EECDF9372030CE35D38EAFBFD6D468A /* DDScheduleTimeInfo.swift */; };
 		D20FB17706699D4093F784B7062DA747 /* Pods-DDDayScheduleView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 348A02DEF852496C37687409DABBC824 /* Pods-DDDayScheduleView_Example-dummy.m */; };
-		D50D00ADF104A50C77854C7B1581B3C5 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65BFCA0A21044C1C3E6F663BB5F9B48 /* ConstraintItem.swift */; };
-		D5E46A5D819AF3164D1D620B64FE5C04 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C12038B34951B9B002DAB0D5FE023DA /* ConstraintMultiplierTarget.swift */; };
-		D74C669767B36158983C37BD7A41B7A9 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A12656157BC29CB51F2534C8EDF360 /* ConstraintInsetTarget.swift */; };
-		E6893FE61ABA7A01403DEDDAB61D9791 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144DAF3614C757BDAABBA78E4B4866FC /* ConstraintLayoutGuide+Extensions.swift */; };
-		E803AE4F5B9678F94E87BA8BB9563814 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A533BD0DE17143457FB42BF7749CDD /* ConstraintConfig.swift */; };
-		EEFBA274ADFBE20DDB6416AB7CCEDF63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14FE473E37EFB8571E729F9B375CE60E /* Foundation.framework */; };
-		F1A22128B2D410E955953E0B6997F178 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7597745DD02F02027BEB927801E4E7E2 /* ConstraintDescription.swift */; };
-		F1AE185BFE20AE543B429D60520DC67A /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC92BE130C0A4CE98F06E9D397E55AF /* ConstraintPriorityTarget.swift */; };
-		F24684AE9C0284793F90AABDCD1FA617 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21B4EB2CAC44390D976C65ABE1CE2F5 /* ConstraintOffsetTarget.swift */; };
-		F652C85C24ED42D300E0FAD9 /* DDDayScheduleTimeIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F652C85924ED42D300E0FAD9 /* DDDayScheduleTimeIndicatorView.swift */; };
-		F652C85D24ED42D300E0FAD9 /* DDDayScheduleItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F652C85A24ED42D300E0FAD9 /* DDDayScheduleItemView.swift */; };
-		F652C85E24ED42D300E0FAD9 /* DDDayScheduleBaseLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F652C85B24ED42D300E0FAD9 /* DDDayScheduleBaseLineView.swift */; };
-		F66FBE5F24E91E0300D9286F /* DDDayScheduleViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FBE5E24E91E0300D9286F /* DDDayScheduleViewProtocol.swift */; };
-		F66FBE6124E921E300D9286F /* DDScheduleTimeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FBE6024E921E300D9286F /* DDScheduleTimeInfo.swift */; };
-		F66FBE6924E92AEF00D9286F /* Date+DDExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FBE6824E92AEF00D9286F /* Date+DDExtension.swift */; };
-		F66FBE6D24EA16B700D9286F /* UIEdgeInsets+DDExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FBE6C24EA16B700D9286F /* UIEdgeInsets+DDExtension.swift */; };
-		FC2CBACC0360CC827B23657A4262AA85 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB05D22C92E5A571A653D510E552AC0 /* ConstraintView+Extensions.swift */; };
+		D8B7BDC3BFDDBF38A443B05D7AE2F791 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FED189CE3C9928FFAF66C86038ABFDB1 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D954718DC4DC45B13419D23CB5E51A7C /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7597745DD02F02027BEB927801E4E7E2 /* ConstraintDescription.swift */; };
+		DA38D5DCC929952A9909A52A21AC19FF /* DDScheduleEditableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB894D596585848D37E7072FDA097B1 /* DDScheduleEditableView.swift */; };
+		E08408EF6406944E4F7465CE069A280B /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62526768B0933882A844A3CC52757009 /* ConstraintLayoutSupport.swift */; };
+		EB6CCF34086A35FE6B13B24E687E2D50 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA85F3D7C8DB385CE531CD6CB85D041 /* SnapKit.framework */; };
+		EBDB9CE3B10190A42AE977CE3160957E /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED05C0772840EE66B3EB754BEF846F7A /* ConstraintMakerRelatable.swift */; };
+		F1DD8F618490110E106CF910673C5442 /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161FED143DE8DD1AC41D71D22AEA464B /* ConstraintPriority.swift */; };
+		F1E78B5C5887E56ADD2DC949E25E4A52 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C5937AEDD4F642E09E0A1980BCC652 /* Debugging.swift */; };
+		F5CC6B1DC27B00C4D06C5F67A201AE47 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65BFCA0A21044C1C3E6F663BB5F9B48 /* ConstraintItem.swift */; };
+		F8379101C41FFE6F03F71991F0DB45D4 /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F1619E6AE6BAD68A1F802AD244BFAB /* ConstraintMakerPriortizable.swift */; };
+		FE98BA5749C4F05AB816242B81DA5C81 /* DDDayScheduleTimeIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA4DD0C6EFC8D0D36183FF073DD86CD /* DDDayScheduleTimeIndicatorView.swift */; };
+		FE9B13EE4D259A9A755205E73A4590C6 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C417784A7C0566CA3A4A90F972ECD6E6 /* Constraint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DA74A9D8CFDA80E4FEE33D3A10F69F02 /* PBXContainerItemProxy */ = {
+		5164A4B80B7D011A01F4CBCB51A5E179 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -97,103 +100,106 @@
 
 /* Begin PBXFileReference section */
 		03A0C5AD6518D23B10E42A4C7BED998C /* Pods-DDDayScheduleView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DDDayScheduleView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		06CCA9087C9C81C618446A35710FC685 /* DDDayScheduleView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DDDayScheduleView-Info.plist"; sourceTree = "<group>"; };
 		0A75F25659D08D8A6E09172347916C30 /* Pods-DDDayScheduleView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DDDayScheduleView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		12D295ABBE5A35AFAA0BE21F1D167764 /* DDDayScheduleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDDayScheduleView.swift; path = DDDayScheduleView/Classes/DDDayScheduleView.swift; sourceTree = "<group>"; };
 		144DAF3614C757BDAABBA78E4B4866FC /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
 		14FE473E37EFB8571E729F9B375CE60E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		161FED143DE8DD1AC41D71D22AEA464B /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
 		1BA85F3D7C8DB385CE531CD6CB85D041 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BC379896EAA5669E4D3373B5CB45E76 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2588B10ADEDC81091B6AC25999FDAF74 /* DDDayScheduleItemView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DDDayScheduleItemView.swift; sourceTree = "<group>"; };
 		25E34EF5671A453947A4DB0C58A03A48 /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
+		2AAE46DFA5240C855DAACEE9ECED7F01 /* DDDayScheduleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDDayScheduleView.swift; path = DDDayScheduleView/Classes/DDDayScheduleView.swift; sourceTree = "<group>"; };
 		2AB05D22C92E5A571A653D510E552AC0 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
 		2B7AA3BC8DC3807ED69C317EE3900484 /* Pods-DDDayScheduleView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DDDayScheduleView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		31D9206009F00444774E10DA27ACE442 /* Pods_DDDayScheduleView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDDayScheduleView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31D9206009F00444774E10DA27ACE442 /* Pods_DDDayScheduleView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DDDayScheduleView_Tests.framework; path = "Pods-DDDayScheduleView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		348A02DEF852496C37687409DABBC824 /* Pods-DDDayScheduleView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DDDayScheduleView_Example-dummy.m"; sourceTree = "<group>"; };
-		36FE4C76C4107CC53A22403395D404CE /* DDDayScheduleView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DDDayScheduleView-dummy.m"; sourceTree = "<group>"; };
 		3F812B71438F709C9BBB7D4B438DAA8B /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		4011032F513C25711909143D0268D59A /* DDDayScheduleView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DDDayScheduleView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		40C5937AEDD4F642E09E0A1980BCC652 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
 		45FD64C66CE4DDF29ECD54691C69DE81 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		489118D5FB9E1520D550CF8EC3BC3030 /* DDDayScheduleView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DDDayScheduleView.xcconfig; sourceTree = "<group>"; };
 		48EFBC475A6AD866A5083DC5F61B3563 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
 		4BC92BE130C0A4CE98F06E9D397E55AF /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
-		4CDD6135CEC8522C2185E12B1FC19643 /* DDDayScheduleView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDDayScheduleView-prefix.pch"; sourceTree = "<group>"; };
 		513D501390DEA1D2A8B68B1CA53F9979 /* Pods-DDDayScheduleView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DDDayScheduleView_Tests.modulemap"; sourceTree = "<group>"; };
 		5B3D1E72289667D4BA6D946E25320953 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		5BC7BADF55AF8F91607AF2EAFFF54447 /* DDDayScheduleBaseLineView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DDDayScheduleBaseLineView.swift; sourceTree = "<group>"; };
 		5E62545952A3F91C0FFB7163FA3ABB9E /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
 		6043A60B74B531F62E520A7669D4E907 /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
 		62526768B0933882A844A3CC52757009 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		678CE2642C614AA567CD595AB7F1462A /* DDDayScheduleView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DDDayScheduleView-dummy.m"; sourceTree = "<group>"; };
 		69A533BD0DE17143457FB42BF7749CDD /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
 		6BA20D94D18B89BCA5CF2600878CAB42 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		6DB894D596585848D37E7072FDA097B1 /* DDScheduleEditableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DDScheduleEditableView.swift; sourceTree = "<group>"; };
+		6EECDF9372030CE35D38EAFBFD6D468A /* DDScheduleTimeInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDScheduleTimeInfo.swift; path = DDDayScheduleView/Classes/DDScheduleTimeInfo.swift; sourceTree = "<group>"; };
+		6FA4DD0C6EFC8D0D36183FF073DD86CD /* DDDayScheduleTimeIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DDDayScheduleTimeIndicatorView.swift; sourceTree = "<group>"; };
 		6FED7DD645CF7EE688F4FBFE76F4B56A /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
 		7597745DD02F02027BEB927801E4E7E2 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		75EEF2DB6E8652D3E59A94C7D750D1BB /* DDScheduleEditMaskView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DDScheduleEditMaskView.swift; sourceTree = "<group>"; };
 		784E71663FDE42A52D425DA752FC02E7 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
-		79413B10702D9B96E000F15AC2FD1A15 /* DDDayScheduleView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DDDayScheduleView.modulemap; sourceTree = "<group>"; };
 		7A9E8324D0994261E310D8C9ABB5015C /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
-		7D2A5307001BDE7343FCFF73CD0DFF66 /* DDDayScheduleView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DDDayScheduleView-Info.plist"; sourceTree = "<group>"; };
 		8322AECAC77AD18B746BD4DC40ED832C /* Pods-DDDayScheduleView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DDDayScheduleView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8775C1193581FD9D7E2AC0E4BDAA13B5 /* Pods-DDDayScheduleView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DDDayScheduleView_Tests-dummy.m"; sourceTree = "<group>"; };
 		8A26D91B0E800F3CC711EB9D4B7D643D /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
-		8BA0E15F7A7BE11DD2CD5A0AC572B854 /* DDDayScheduleView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDDayScheduleView-umbrella.h"; sourceTree = "<group>"; };
+		939FEBD87E188D38637F813FAE1DFB85 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		963937C7D6213D4E755A6D9FACBD58F8 /* Date+DDExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Date+DDExtension.swift"; sourceTree = "<group>"; };
 		976C6F1D2446B06BB24BDE35EB44FA92 /* Pods-DDDayScheduleView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DDDayScheduleView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		979486118B3E90C08386079D57962701 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		979486118B3E90C08386079D57962701 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C12038B34951B9B002DAB0D5FE023DA /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
 		9C87F70E835D22459F492D40CB584A67 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E22FE8B0096E55C792DF93AF36C8452 /* Pods-DDDayScheduleView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DDDayScheduleView_Example.modulemap"; sourceTree = "<group>"; };
 		A156835F5B20B0DE5962C7DD63E2E761 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
 		A23DE5B5F4B593DDCE0ADE8616B85C5A /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
 		A6F1619E6AE6BAD68A1F802AD244BFAB /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
-		AF511D7D4DF28E590A14537BCB4F5919 /* DDDayScheduleView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DDDayScheduleView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B0923CB00D04E7936D1BB4963274961F /* DDDayScheduleView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDDayScheduleView-prefix.pch"; sourceTree = "<group>"; };
 		B0A3ECCB7489854CAA077B5B187C912D /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
 		B2A12656157BC29CB51F2534C8EDF360 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
 		B46E43BE3E247AA0F2A46D4509177E31 /* Pods-DDDayScheduleView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DDDayScheduleView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B51997D8F72193BCB8F4C3521AEABE1E /* DDDayScheduleView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DDDayScheduleView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BAC8C6F2433E9529CC34A177FEDB5A17 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B51997D8F72193BCB8F4C3521AEABE1E /* DDDayScheduleView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DDDayScheduleView.framework; path = DDDayScheduleView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE8E4C0D28904F2FCC98EF3A53DFD11B /* Pods-DDDayScheduleView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DDDayScheduleView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		BFA57917D5E295BADC0B25F3CDB9C4E8 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
 		C195F9A01BE6E6998BBB33220EB5CCAB /* Pods-DDDayScheduleView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DDDayScheduleView_Tests-Info.plist"; sourceTree = "<group>"; };
-		C266DEFB538101EBEF69010E171A581F /* Pods_DDDayScheduleView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDDayScheduleView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C266DEFB538101EBEF69010E171A581F /* Pods_DDDayScheduleView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DDDayScheduleView_Example.framework; path = "Pods-DDDayScheduleView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C417784A7C0566CA3A4A90F972ECD6E6 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
 		C65BFCA0A21044C1C3E6F663BB5F9B48 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
 		D21B2FDCEA78DB15010A749F9203D21F /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
 		D5902768DE34E1627B020F4B2FB7BBBE /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
 		D7A795CA20F557DCF9F4AC9081935FA3 /* Pods-DDDayScheduleView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DDDayScheduleView_Example-umbrella.h"; sourceTree = "<group>"; };
+		D801B7D99C70CB381942139C0758B2E3 /* DDDayScheduleView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDDayScheduleView-umbrella.h"; sourceTree = "<group>"; };
+		DE9F150439DB6255AD1F95AD0270C5A0 /* UIView+DDExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+DDExtension.swift"; sourceTree = "<group>"; };
 		DEF77AF84C2761FF3C974CBD573DA70E /* Pods-DDDayScheduleView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DDDayScheduleView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E1ECCD280B6DF12C2F993D935BA67428 /* DDDayScheduleViewProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDDayScheduleViewProtocol.swift; path = DDDayScheduleView/Classes/DDDayScheduleViewProtocol.swift; sourceTree = "<group>"; };
 		E21B4EB2CAC44390D976C65ABE1CE2F5 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
-		E3805411737F6B97172D41A9F07F2ACE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E4313A83DA219A045C038A5E37A2E120 /* Pods-DDDayScheduleView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DDDayScheduleView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		EC0E4E3541BF32A5C4247EA2CC09B4BE /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
 		ED05C0772840EE66B3EB754BEF846F7A /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		EF0C205274F2043B22DC219CD9AD3F6E /* DDDayScheduleView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DDDayScheduleView.modulemap; sourceTree = "<group>"; };
 		F4E78388026BE82AAECD3CB38C17AACA /* Pods-DDDayScheduleView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DDDayScheduleView_Example-Info.plist"; sourceTree = "<group>"; };
 		F5C9D6FEF48994711991A348A7B0B99A /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
 		F63DC83113A26BB1DB9ED37E0EE3F512 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
-		F652C85924ED42D300E0FAD9 /* DDDayScheduleTimeIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDDayScheduleTimeIndicatorView.swift; sourceTree = "<group>"; };
-		F652C85A24ED42D300E0FAD9 /* DDDayScheduleItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDDayScheduleItemView.swift; sourceTree = "<group>"; };
-		F652C85B24ED42D300E0FAD9 /* DDDayScheduleBaseLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDDayScheduleBaseLineView.swift; sourceTree = "<group>"; };
-		F66FBE5E24E91E0300D9286F /* DDDayScheduleViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DDDayScheduleViewProtocol.swift; path = DDDayScheduleView/Classes/DDDayScheduleViewProtocol.swift; sourceTree = "<group>"; };
-		F66FBE6024E921E300D9286F /* DDScheduleTimeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DDScheduleTimeInfo.swift; path = DDDayScheduleView/Classes/DDScheduleTimeInfo.swift; sourceTree = "<group>"; };
-		F66FBE6824E92AEF00D9286F /* Date+DDExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Date+DDExtension.swift"; path = "../DDDayScheduleView/Classes/Extension/Date+DDExtension.swift"; sourceTree = "<group>"; };
-		F66FBE6C24EA16B700D9286F /* UIEdgeInsets+DDExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIEdgeInsets+DDExtension.swift"; path = "../DDDayScheduleView/Classes/Extension/UIEdgeInsets+DDExtension.swift"; sourceTree = "<group>"; };
+		F874327FF5B46C6922650DF4D1B6D8D5 /* UIEdgeInsets+DDExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIEdgeInsets+DDExtension.swift"; sourceTree = "<group>"; };
 		F902CDA99715ADA3EC010544308DA63A /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
 		FCFD97F112062A9279D700C04FF12BDD /* Pods-DDDayScheduleView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DDDayScheduleView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FD313B584F4DD046DAD1E1A5DBA2AA9A /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
-		FE1B04C8958E3B90B1C014378BE1584E /* DDDayScheduleView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DDDayScheduleView.xcconfig; sourceTree = "<group>"; };
 		FED189CE3C9928FFAF66C86038ABFDB1 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6955C90EE0120310AA6620468F54F223 /* Frameworks */ = {
+		364BDC8AEE4D2B14791EA5EB949601C1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A940980E130B4AA4F37984798C937DDE /* Foundation.framework in Frameworks */,
+				00858F88BC01AC0B4470FF7BC778286E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		782114997F5C126C143FB1D374870AA6 /* Frameworks */ = {
+		860D1CC5936DCB6E3597EBF87C7889E6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEFBA274ADFBE20DDB6416AB7CCEDF63 /* Foundation.framework in Frameworks */,
-				2DC831D7517FEA26534C4B6016C526C6 /* SnapKit.framework in Frameworks */,
+				2C3BE1378DEB08B714B0CB51AA6FB177 /* Foundation.framework in Frameworks */,
+				EB6CCF34086A35FE6B13B24E687E2D50 /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,19 +248,14 @@
 			path = "Target Support Files/Pods-DDDayScheduleView_Example";
 			sourceTree = "<group>";
 		};
-		1F08D94150E89DABC97C8B1DD4FE10D9 /* DDDayScheduleView */ = {
+		3B5D167912A7B97D19D720F670C7DF75 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				F652C85824ED42D300E0FAD9 /* Private */,
-				F66FBE6724E92AD100D9286F /* Extension */,
-				12D295ABBE5A35AFAA0BE21F1D167764 /* DDDayScheduleView.swift */,
-				F66FBE5E24E91E0300D9286F /* DDDayScheduleViewProtocol.swift */,
-				F66FBE6024E921E300D9286F /* DDScheduleTimeInfo.swift */,
-				B963407742CAE9457FB312240DC3E084 /* Pod */,
-				814B660E041419E293F368E15AFC5F3F /* Support Files */,
+				963937C7D6213D4E755A6D9FACBD58F8 /* Date+DDExtension.swift */,
+				F874327FF5B46C6922650DF4D1B6D8D5 /* UIEdgeInsets+DDExtension.swift */,
 			);
-			name = DDDayScheduleView;
-			path = ../..;
+			name = Extension;
+			path = DDDayScheduleView/Classes/Extension;
 			sourceTree = "<group>";
 		};
 		3E43C5062E531413452D5E2A8E3A6D9B /* Pods-DDDayScheduleView_Tests */ = {
@@ -290,18 +291,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		814B660E041419E293F368E15AFC5F3F /* Support Files */ = {
+		80E7E7F9DF2F1BB4347E56126D9F55F0 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				79413B10702D9B96E000F15AC2FD1A15 /* DDDayScheduleView.modulemap */,
-				FE1B04C8958E3B90B1C014378BE1584E /* DDDayScheduleView.xcconfig */,
-				36FE4C76C4107CC53A22403395D404CE /* DDDayScheduleView-dummy.m */,
-				7D2A5307001BDE7343FCFF73CD0DFF66 /* DDDayScheduleView-Info.plist */,
-				4CDD6135CEC8522C2185E12B1FC19643 /* DDDayScheduleView-prefix.pch */,
-				8BA0E15F7A7BE11DD2CD5A0AC572B854 /* DDDayScheduleView-umbrella.h */,
+				4011032F513C25711909143D0268D59A /* DDDayScheduleView.podspec */,
+				1BC379896EAA5669E4D3373B5CB45E76 /* LICENSE */,
+				939FEBD87E188D38637F813FAE1DFB85 /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DDDayScheduleView";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		82C8E2F92C0DFA3E2F5653246EF42887 /* Products */ = {
@@ -315,22 +312,55 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8E9269094554A2AF86ECFF133E12E698 /* Development Pods */ = {
+		8D00C71ED1216745ED992B1212AB8DD6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1F08D94150E89DABC97C8B1DD4FE10D9 /* DDDayScheduleView */,
+				EF0C205274F2043B22DC219CD9AD3F6E /* DDDayScheduleView.modulemap */,
+				489118D5FB9E1520D550CF8EC3BC3030 /* DDDayScheduleView.xcconfig */,
+				678CE2642C614AA567CD595AB7F1462A /* DDDayScheduleView-dummy.m */,
+				06CCA9087C9C81C618446A35710FC685 /* DDDayScheduleView-Info.plist */,
+				B0923CB00D04E7936D1BB4963274961F /* DDDayScheduleView-prefix.pch */,
+				D801B7D99C70CB381942139C0758B2E3 /* DDDayScheduleView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DDDayScheduleView";
+			sourceTree = "<group>";
+		};
+		8E855BE2BBF253C4961E984127A2F55A /* DDDayScheduleView */ = {
+			isa = PBXGroup;
+			children = (
+				2AAE46DFA5240C855DAACEE9ECED7F01 /* DDDayScheduleView.swift */,
+				E1ECCD280B6DF12C2F993D935BA67428 /* DDDayScheduleViewProtocol.swift */,
+				6EECDF9372030CE35D38EAFBFD6D468A /* DDScheduleTimeInfo.swift */,
+				3B5D167912A7B97D19D720F670C7DF75 /* Extension */,
+				80E7E7F9DF2F1BB4347E56126D9F55F0 /* Pod */,
+				C3A5AEE10724F40003BF66A8EE7F40E8 /* Private */,
+				8D00C71ED1216745ED992B1212AB8DD6 /* Support Files */,
+			);
+			name = DDDayScheduleView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B91A9DBC637353503F3BBDBC2486D335 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E855BE2BBF253C4961E984127A2F55A /* DDDayScheduleView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		B963407742CAE9457FB312240DC3E084 /* Pod */ = {
+		C3A5AEE10724F40003BF66A8EE7F40E8 /* Private */ = {
 			isa = PBXGroup;
 			children = (
-				AF511D7D4DF28E590A14537BCB4F5919 /* DDDayScheduleView.podspec */,
-				BAC8C6F2433E9529CC34A177FEDB5A17 /* LICENSE */,
-				E3805411737F6B97172D41A9F07F2ACE /* README.md */,
+				5BC7BADF55AF8F91607AF2EAFFF54447 /* DDDayScheduleBaseLineView.swift */,
+				2588B10ADEDC81091B6AC25999FDAF74 /* DDDayScheduleItemView.swift */,
+				6FA4DD0C6EFC8D0D36183FF073DD86CD /* DDDayScheduleTimeIndicatorView.swift */,
+				6DB894D596585848D37E7072FDA097B1 /* DDScheduleEditableView.swift */,
+				75EEF2DB6E8652D3E59A94C7D750D1BB /* DDScheduleEditMaskView.swift */,
+				DE9F150439DB6255AD1F95AD0270C5A0 /* UIView+DDExtension.swift */,
 			);
-			name = Pod;
+			name = Private;
+			path = DDDayScheduleView/Classes/Private;
 			sourceTree = "<group>";
 		};
 		C91EDAA5CCFDB0CED5792EE230E47FD8 /* Support Files */ = {
@@ -351,7 +381,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				8E9269094554A2AF86ECFF133E12E698 /* Development Pods */,
+				B91A9DBC637353503F3BBDBC2486D335 /* Development Pods */,
 				5D07A52BCC66B722D158B66A572E78DD /* Frameworks */,
 				427B270BD76A5EF45313FBF29233B96D /* Pods */,
 				82C8E2F92C0DFA3E2F5653246EF42887 /* Products */,
@@ -406,32 +436,21 @@
 				9C87F70E835D22459F492D40CB584A67 /* UILayoutSupport+Extensions.swift */,
 				C91EDAA5CCFDB0CED5792EE230E47FD8 /* Support Files */,
 			);
+			name = SnapKit;
 			path = SnapKit;
-			sourceTree = "<group>";
-		};
-		F652C85824ED42D300E0FAD9 /* Private */ = {
-			isa = PBXGroup;
-			children = (
-				F652C85B24ED42D300E0FAD9 /* DDDayScheduleBaseLineView.swift */,
-				F652C85924ED42D300E0FAD9 /* DDDayScheduleTimeIndicatorView.swift */,
-				F652C85A24ED42D300E0FAD9 /* DDDayScheduleItemView.swift */,
-			);
-			name = Private;
-			path = DDDayScheduleView/Classes/Private;
-			sourceTree = "<group>";
-		};
-		F66FBE6724E92AD100D9286F /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				F66FBE6824E92AEF00D9286F /* Date+DDExtension.swift */,
-				F66FBE6C24EA16B700D9286F /* UIEdgeInsets+DDExtension.swift */,
-			);
-			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		2B2EA5975CA18E385D154B980DBF6DD6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A7FBE83D2F5BE6435D16B42F5E9BCDE /* DDDayScheduleView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3B9478F19E492379E3AEF05785DC9D9B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -440,19 +459,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		646B2759E18808EA02E53B23866506DA /* Headers */ = {
+		42BCC8628F6602936B7BB1804DB37B07 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A82EEEE83AB9101594C81AE7330E6C1 /* SnapKit-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		77A6B6915B47BC92AC96B39BF5E496E3 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				11E1D4E24611CE4AB54216A650C3BC14 /* DDDayScheduleView-umbrella.h in Headers */,
+				D8B7BDC3BFDDBF38A443B05D7AE2F791 /* SnapKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,12 +480,12 @@
 /* Begin PBXNativeTarget section */
 		19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C0651F5BCB0C0D96F955B495FC1CE956 /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildConfigurationList = 404E47154EBCAEC4B6B3740A6DCCFFAA /* Build configuration list for PBXNativeTarget "SnapKit" */;
 			buildPhases = (
-				646B2759E18808EA02E53B23866506DA /* Headers */,
-				EA26A6775EC9BDDEADEC25D32CB48DCA /* Sources */,
-				6955C90EE0120310AA6620468F54F223 /* Frameworks */,
-				A2B9C61A63F7122A752F0500ADF48DEC /* Resources */,
+				42BCC8628F6602936B7BB1804DB37B07 /* Headers */,
+				99EA1C95AC50EC43FFB49A10CFFF2EBB /* Sources */,
+				364BDC8AEE4D2B14791EA5EB949601C1 /* Frameworks */,
+				91073123008A6CDE8954470C31366392 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -526,17 +537,17 @@
 		};
 		AE31146EF24B8D3095E016F79C999D76 /* DDDayScheduleView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4CC49792C485A0007177A09ADF311917 /* Build configuration list for PBXNativeTarget "DDDayScheduleView" */;
+			buildConfigurationList = 1E4E24E138F6488FC1D6A94EF08A5B2E /* Build configuration list for PBXNativeTarget "DDDayScheduleView" */;
 			buildPhases = (
-				77A6B6915B47BC92AC96B39BF5E496E3 /* Headers */,
-				4A2CAFE9B4C10C460F5256F14224EFEC /* Sources */,
-				782114997F5C126C143FB1D374870AA6 /* Frameworks */,
-				704C5116A3C874ECACC70ACEE1AD396A /* Resources */,
+				2B2EA5975CA18E385D154B980DBF6DD6 /* Headers */,
+				E93592B5CEE11FF6D97711413435BD14 /* Sources */,
+				860D1CC5936DCB6E3597EBF87C7889E6 /* Frameworks */,
+				B4E764274B736FAABA7F7D74F24A8C4D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				65831DB43DF9CC1F0D040DD2DCF6D285 /* PBXTargetDependency */,
+				2D296EDDAC823DBAE4238B950F6FC74D /* PBXTargetDependency */,
 			);
 			name = DDDayScheduleView;
 			productName = DDDayScheduleView;
@@ -549,7 +560,6 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = DD;
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
 			};
@@ -589,14 +599,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		704C5116A3C874ECACC70ACEE1AD396A /* Resources */ = {
+		91073123008A6CDE8954470C31366392 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A2B9C61A63F7122A752F0500ADF48DEC /* Resources */ = {
+		B4E764274B736FAABA7F7D74F24A8C4D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -614,19 +624,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4A2CAFE9B4C10C460F5256F14224EFEC /* Sources */ = {
+		99EA1C95AC50EC43FFB49A10CFFF2EBB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				837EED5D4C2593B0D57FC13934B57802 /* DDDayScheduleView-dummy.m in Sources */,
-				F66FBE5F24E91E0300D9286F /* DDDayScheduleViewProtocol.swift in Sources */,
-				9F6DCC78A58ED0DD4178FB8921868B62 /* DDDayScheduleView.swift in Sources */,
-				F652C85D24ED42D300E0FAD9 /* DDDayScheduleItemView.swift in Sources */,
-				F652C85C24ED42D300E0FAD9 /* DDDayScheduleTimeIndicatorView.swift in Sources */,
-				F66FBE6D24EA16B700D9286F /* UIEdgeInsets+DDExtension.swift in Sources */,
-				F66FBE6924E92AEF00D9286F /* Date+DDExtension.swift in Sources */,
-				F652C85E24ED42D300E0FAD9 /* DDDayScheduleBaseLineView.swift in Sources */,
-				F66FBE6124E921E300D9286F /* DDScheduleTimeInfo.swift in Sources */,
+				FE9B13EE4D259A9A755205E73A4590C6 /* Constraint.swift in Sources */,
+				03A898CBBC0B41E49673DAC5E21628E0 /* ConstraintAttributes.swift in Sources */,
+				ABF0F27FD1B1F79C0C6A3DAF6FD23A00 /* ConstraintConfig.swift in Sources */,
+				AB8537760CDE552312D6901FF225DC4A /* ConstraintConstantTarget.swift in Sources */,
+				D954718DC4DC45B13419D23CB5E51A7C /* ConstraintDescription.swift in Sources */,
+				6A0344DFB2FAA0FECC0F43D5605C2A6D /* ConstraintDSL.swift in Sources */,
+				7E64FA03F17E1DEEC8BEB2999746F097 /* ConstraintInsets.swift in Sources */,
+				B9C3F28C8C4A4109FFB6DC4B57D429EA /* ConstraintInsetTarget.swift in Sources */,
+				F5CC6B1DC27B00C4D06C5F67A201AE47 /* ConstraintItem.swift in Sources */,
+				C31431E6132AB7C3D4457E9D91F1A28A /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				C8104DBBB52D9D379518CD8B54B5044E /* ConstraintLayoutGuide.swift in Sources */,
+				71D5399D4A7B2576D3E734E2518CD7F1 /* ConstraintLayoutGuideDSL.swift in Sources */,
+				E08408EF6406944E4F7465CE069A280B /* ConstraintLayoutSupport.swift in Sources */,
+				5A13A4225C46F5415274ABE9AEAE7346 /* ConstraintLayoutSupportDSL.swift in Sources */,
+				7D6A414B19886EDCAFFFBFB60739245B /* ConstraintMaker.swift in Sources */,
+				293F24DF4C745F2EC8AB0492DD02BD31 /* ConstraintMakerEditable.swift in Sources */,
+				56C9AE73D3E096DF9D8BBCB40E6FB964 /* ConstraintMakerExtendable.swift in Sources */,
+				088D0DC87726FB8E38A0E60273F2B383 /* ConstraintMakerFinalizable.swift in Sources */,
+				F8379101C41FFE6F03F71991F0DB45D4 /* ConstraintMakerPriortizable.swift in Sources */,
+				EBDB9CE3B10190A42AE977CE3160957E /* ConstraintMakerRelatable.swift in Sources */,
+				A0DBA5AD2AED0CFCD8C57E72B9CC21BC /* ConstraintMultiplierTarget.swift in Sources */,
+				0CC74188B6504F63EF8856C913016983 /* ConstraintOffsetTarget.swift in Sources */,
+				F1DD8F618490110E106CF910673C5442 /* ConstraintPriority.swift in Sources */,
+				AE93CD450386E8B3142F02F9238C010A /* ConstraintPriorityTarget.swift in Sources */,
+				4236D7F09AEE0A606B475213F1E28BF7 /* ConstraintRelatableTarget.swift in Sources */,
+				48D712BB6A0DC368202A6735C85E7460 /* ConstraintRelation.swift in Sources */,
+				C8354BB089C01D5600A7FB156BC38CDE /* ConstraintView+Extensions.swift in Sources */,
+				2A5E150858B4283E52C2953EA7883F23 /* ConstraintView.swift in Sources */,
+				005C1DA8E7379F84AD331F4F95A28A29 /* ConstraintViewDSL.swift in Sources */,
+				F1E78B5C5887E56ADD2DC949E25E4A52 /* Debugging.swift in Sources */,
+				4E9FB0DDD65E36AE3BFA57983CB5A00E /* LayoutConstraint.swift in Sources */,
+				CB41196B446382C313AC284E6054D438 /* LayoutConstraintItem.swift in Sources */,
+				065BCA1F14FDB6A0C2D388A928086D1A /* SnapKit-dummy.m in Sources */,
+				6A682C0EF763DD55DE2D39DF57403DEE /* Typealiases.swift in Sources */,
+				6F9818B0D1A76A4D932EE8766443449E /* UILayoutSupport+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -638,45 +674,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA26A6775EC9BDDEADEC25D32CB48DCA /* Sources */ = {
+		E93592B5CEE11FF6D97711413435BD14 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8DED8191FC517CBD36C7A24AEF9EE86 /* Constraint.swift in Sources */,
-				B5D6C62E5EA757CD04AC0745B4B99FCC /* ConstraintAttributes.swift in Sources */,
-				E803AE4F5B9678F94E87BA8BB9563814 /* ConstraintConfig.swift in Sources */,
-				A0E9FE5FD2A5AFCF03192E1D430E27BC /* ConstraintConstantTarget.swift in Sources */,
-				F1A22128B2D410E955953E0B6997F178 /* ConstraintDescription.swift in Sources */,
-				D0BFFF913FD9E01F523DB5059AB0E916 /* ConstraintDSL.swift in Sources */,
-				8A16BAE0A6134468011FE9C17B07E56A /* ConstraintInsets.swift in Sources */,
-				D74C669767B36158983C37BD7A41B7A9 /* ConstraintInsetTarget.swift in Sources */,
-				D50D00ADF104A50C77854C7B1581B3C5 /* ConstraintItem.swift in Sources */,
-				E6893FE61ABA7A01403DEDDAB61D9791 /* ConstraintLayoutGuide+Extensions.swift in Sources */,
-				6B3AD2A0A19B0CCC0920546FD867C850 /* ConstraintLayoutGuide.swift in Sources */,
-				CD9CB7C486A7E371D276E19CC13F025B /* ConstraintLayoutGuideDSL.swift in Sources */,
-				33773CBEAEC69B01BE2D81C8BCAD2B7E /* ConstraintLayoutSupport.swift in Sources */,
-				1A15844BC591A1942E21A941CD92A628 /* ConstraintLayoutSupportDSL.swift in Sources */,
-				08070F38A2CC2A7BD08E78834AE1260D /* ConstraintMaker.swift in Sources */,
-				25D4523AB3607694F0F9F6AB8842E627 /* ConstraintMakerEditable.swift in Sources */,
-				29DE21382A135421341067C40BA280B7 /* ConstraintMakerExtendable.swift in Sources */,
-				C6FC3F76BD681D71C2C9A498E3D7BE86 /* ConstraintMakerFinalizable.swift in Sources */,
-				42E2F0BAF8363F1F28D8C2B562E08A90 /* ConstraintMakerPriortizable.swift in Sources */,
-				45ECD847416BEDD99B57FE39892F3D83 /* ConstraintMakerRelatable.swift in Sources */,
-				D5E46A5D819AF3164D1D620B64FE5C04 /* ConstraintMultiplierTarget.swift in Sources */,
-				F24684AE9C0284793F90AABDCD1FA617 /* ConstraintOffsetTarget.swift in Sources */,
-				6EBAE4160DFF7BD1D28E9CFBEC829C3D /* ConstraintPriority.swift in Sources */,
-				F1AE185BFE20AE543B429D60520DC67A /* ConstraintPriorityTarget.swift in Sources */,
-				8E939497E0BD3AA477B1AB009A6297E6 /* ConstraintRelatableTarget.swift in Sources */,
-				2765788FDDEC4985B253A4D8F7344214 /* ConstraintRelation.swift in Sources */,
-				FC2CBACC0360CC827B23657A4262AA85 /* ConstraintView+Extensions.swift in Sources */,
-				96474929C19DCA7B3A23D4E2ACFB719A /* ConstraintView.swift in Sources */,
-				7C66BB7AE9365E579D9FC564B32EF4FF /* ConstraintViewDSL.swift in Sources */,
-				9EF690CD2A3B19A3965BF3E28B402BA4 /* Debugging.swift in Sources */,
-				CC49F0B5092BADCA926DFE11DBE8119E /* LayoutConstraint.swift in Sources */,
-				2331C0061A121D89F1B3A3453464F603 /* LayoutConstraintItem.swift in Sources */,
-				376F50A7A7BB1838713AE716C3007F13 /* SnapKit-dummy.m in Sources */,
-				2773F42C17C73D0E99ED7F8F3E8550C2 /* Typealiases.swift in Sources */,
-				C636A0F598BDFA3CB44E07C16BBE99EA /* UILayoutSupport+Extensions.swift in Sources */,
+				C58D62F1A91F307A8E6AA7A2BDA5F634 /* Date+DDExtension.swift in Sources */,
+				5B79678B5F530544E06EBA6E23CDEC11 /* DDDayScheduleBaseLineView.swift in Sources */,
+				987D4F1C92D1E15DAA630A42A973B4C2 /* DDDayScheduleItemView.swift in Sources */,
+				FE98BA5749C4F05AB816242B81DA5C81 /* DDDayScheduleTimeIndicatorView.swift in Sources */,
+				381AFA4BB7FB7F7B6C95C62F0698C9C4 /* DDDayScheduleView-dummy.m in Sources */,
+				2316D8B8CC732A7990337751AD9D09C4 /* DDDayScheduleView.swift in Sources */,
+				7161990EB39F150FB042E605C32DA3E7 /* DDDayScheduleViewProtocol.swift in Sources */,
+				DA38D5DCC929952A9909A52A21AC19FF /* DDScheduleEditableView.swift in Sources */,
+				B596468CE13C585FEB72E808CF5D7FE9 /* DDScheduleEditMaskView.swift in Sources */,
+				D178C5B95DC7490CB536D8D2DDF15119 /* DDScheduleTimeInfo.swift in Sources */,
+				890B4A3D5DDCC6B1945D65E68ACF5F89 /* UIEdgeInsets+DDExtension.swift in Sources */,
+				7A2A83AAC9932323879EBB423824C64F /* UIView+DDExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -689,11 +702,11 @@
 			target = AE31146EF24B8D3095E016F79C999D76 /* DDDayScheduleView */;
 			targetProxy = E53DBC3177659CCB839D5E4409A2E586 /* PBXContainerItemProxy */;
 		};
-		65831DB43DF9CC1F0D040DD2DCF6D285 /* PBXTargetDependency */ = {
+		2D296EDDAC823DBAE4238B950F6FC74D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SnapKit;
 			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
-			targetProxy = DA74A9D8CFDA80E4FEE33D3A10F69F02 /* PBXContainerItemProxy */;
+			targetProxy = 5164A4B80B7D011A01F4CBCB51A5E179 /* PBXContainerItemProxy */;
 		};
 		C47C02CCCFF1CC140C3B3920F0D70299 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -776,10 +789,11 @@
 			};
 			name = Debug;
 		};
-		431CC1A6285CB46DDFC7450B0B8E1BC1 /* Release */ = {
+		30F353BE082A7F269BD5EAA64E4EFF25 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 25E34EF5671A453947A4DB0C58A03A48 /* SnapKit.xcconfig */;
+			baseConfigurationReference = 489118D5FB9E1520D550CF8EC3BC3030 /* DDDayScheduleView.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -789,26 +803,25 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/DDDayScheduleView/DDDayScheduleView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DDDayScheduleView/DDDayScheduleView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
-				PRODUCT_MODULE_NAME = SnapKit;
-				PRODUCT_NAME = SnapKit;
+				MODULEMAP_FILE = "Target Support Files/DDDayScheduleView/DDDayScheduleView.modulemap";
+				PRODUCT_MODULE_NAME = DDDayScheduleView;
+				PRODUCT_NAME = DDDayScheduleView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		7F06C7B73FC471107C719EB9EA53F461 /* Debug */ = {
+		74E7D38914F51E4EF148E96F93D94830 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 25E34EF5671A453947A4DB0C58A03A48 /* SnapKit.xcconfig */;
 			buildSettings = {
@@ -839,6 +852,39 @@
 			};
 			name = Debug;
 		};
+		866AE2F087F86F30D1A6A8C81E83A2F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 489118D5FB9E1520D550CF8EC3BC3030 /* DDDayScheduleView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DDDayScheduleView/DDDayScheduleView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DDDayScheduleView/DDDayScheduleView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DDDayScheduleView/DDDayScheduleView.modulemap";
+				PRODUCT_MODULE_NAME = DDDayScheduleView;
+				PRODUCT_NAME = DDDayScheduleView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		8DD191B7556ECC3C8602158F054B16AE /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FCFD97F112062A9279D700C04FF12BDD /* Pods-DDDayScheduleView_Example.release.xcconfig */;
@@ -866,39 +912,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		915D894900302D4BB568888EF7AF92AC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE1B04C8958E3B90B1C014378BE1584E /* DDDayScheduleView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DDDayScheduleView/DDDayScheduleView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DDDayScheduleView/DDDayScheduleView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DDDayScheduleView/DDDayScheduleView.modulemap";
-				PRODUCT_MODULE_NAME = DDDayScheduleView;
-				PRODUCT_NAME = DDDayScheduleView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -959,43 +972,12 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		B55E91ABEBBBBC983D62F23F7E0CA66C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE1B04C8958E3B90B1C014378BE1584E /* DDDayScheduleView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DDDayScheduleView/DDDayScheduleView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DDDayScheduleView/DDDayScheduleView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DDDayScheduleView/DDDayScheduleView.modulemap";
-				PRODUCT_MODULE_NAME = DDDayScheduleView;
-				PRODUCT_NAME = DDDayScheduleView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1061,6 +1043,38 @@
 			};
 			name = Debug;
 		};
+		DCA6719C75D63EEF81CB2439B2A911CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25E34EF5671A453947A4DB0C58A03A48 /* SnapKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		E9BC41F2E7AE8E0D86903B1BEBFD44FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DEF77AF84C2761FF3C974CBD573DA70E /* Pods-DDDayScheduleView_Tests.release.xcconfig */;
@@ -1107,6 +1121,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		1E4E24E138F6488FC1D6A94EF08A5B2E /* Build configuration list for PBXNativeTarget "DDDayScheduleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30F353BE082A7F269BD5EAA64E4EFF25 /* Debug */,
+				866AE2F087F86F30D1A6A8C81E83A2F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2A1C313E1553A535830E345C2CEF67DD /* Build configuration list for PBXNativeTarget "Pods-DDDayScheduleView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1116,29 +1139,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		404E47154EBCAEC4B6B3740A6DCCFFAA /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E7D38914F51E4EF148E96F93D94830 /* Debug */,
+				DCA6719C75D63EEF81CB2439B2A911CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
 				B0087CB4594321EF41619F3181FE120E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4CC49792C485A0007177A09ADF311917 /* Build configuration list for PBXNativeTarget "DDDayScheduleView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B55E91ABEBBBBC983D62F23F7E0CA66C /* Debug */,
-				915D894900302D4BB568888EF7AF92AC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C0651F5BCB0C0D96F955B495FC1CE956 /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7F06C7B73FC471107C719EB9EA53F461 /* Debug */,
-				431CC1A6285CB46DDFC7450B0B8E1BC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -15,7 +15,16 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-//        let s = DDDayScheduleView.Name
+        var models: [DDDayScheduleViewItemRepresentable] = []
+        var previous: CGFloat = 0
+        for i in 0...10 {
+            let model = ScheduleModel()
+            model.name = "计划 \(i)"
+            model.timeInfo = DDScheduleTimeInfo(begin: previous, end: previous + 1)
+            models.append(model)
+            previous += 1
+        }
+        dayScheduleView.datasource = models
     }
 
     override func didReceiveMemoryWarning() {

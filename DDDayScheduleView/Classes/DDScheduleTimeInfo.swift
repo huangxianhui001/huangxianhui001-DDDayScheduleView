@@ -14,11 +14,16 @@ public struct DDScheduleTimeInfo: Equatable {
     public static var zero: DDScheduleTimeInfo {
         return DDScheduleTimeInfo(begin: 0, end: 0)
     }
-    
+   
     /// 开始时间,为0~24之间的浮点数
     public var begin: CGFloat
     /// 结束时间,为0~24之间的浮点数
     public var end: CGFloat
+    
+    public init(begin: CGFloat, end: CGFloat) {
+        self.begin = begin
+        self.end = end
+    }
     
     /// 日程的时长
     public var length: CGFloat {
@@ -43,5 +48,13 @@ public struct DDScheduleTimeInfo: Equatable {
         let hourValue = CGFloat(Int(timeValue))
         let minuteValue = (timeValue - hourValue) * 60
         return (Int(timeValue), Int(minuteValue))
+    }
+}
+
+internal extension CGFloat {
+    
+    /// 由时间值,转换为纵坐标
+    var verticalPosition: CGFloat {
+        return DDDayScheduleView.OneHourHeight * self
     }
 }

@@ -15,5 +15,5 @@ public protocol DDDayScheduleViewItemRepresentable {
 public protocol DDDayScheduleViewDelegate: AnyObject {
     func dayScheduleView(_ dayScheduleView: DDDayScheduleView, didSelectItemAt index: Int)
     func dayScheduleView(_ dayScheduleView: DDDayScheduleView, createNewItemWith timeInfo: DDScheduleTimeInfo)
-    
+    func dayScheduleView(_ dayScheduleView: DDDayScheduleView, editItem item: DDDayScheduleViewItemRepresentable)
 }
