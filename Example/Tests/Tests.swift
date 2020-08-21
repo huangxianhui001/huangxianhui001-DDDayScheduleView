@@ -1,5 +1,5 @@
 import XCTest
-import DDDayScheduleView
+//import DDDayScheduleView
 
 class Tests: XCTestCase {
     
