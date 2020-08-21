@@ -10,6 +10,7 @@ import UIKit
 import DDDayScheduleView
 
 class ScheduleModel: DDDayScheduleViewItemRepresentable {
+    var id: Int = 0
     var name: String = ""
     var timeInfo: DDScheduleTimeInfo = .zero
 }
