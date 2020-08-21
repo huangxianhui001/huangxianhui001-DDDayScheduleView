@@ -10,7 +10,13 @@ import Foundation
 /// 一个日程所需要的时间信息,需包含该日程在一天当中的开始时间和结束时间
 /// 一天24小时,就以0到24之间的浮点数来表示具体某个时间,浮点数的小数部分,为不足一小时的分钟部分占一小时的几分之几
 /// 如半小时就为0.5; 45分钟就为0.75
-public struct DDScheduleTimeInfo: Equatable {
+public struct DDScheduleTimeInfo: Equatable, CustomDebugStringConvertible {
+    public var debugDescription: String {
+        let beginTime = DDScheduleTimeInfo.separateTime(begin)
+        let endTime = DDScheduleTimeInfo.separateTime(end)
+        return "\n开始:\(beginTime.hourValue):\(beginTime.minuteValue)\n结束:\(endTime.hourValue):\(endTime.minuteValue)"
+    }
+    
     public static var zero: DDScheduleTimeInfo {
         return DDScheduleTimeInfo(begin: 0, end: 0)
     }

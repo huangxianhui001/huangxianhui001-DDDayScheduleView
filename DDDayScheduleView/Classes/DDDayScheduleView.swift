@@ -18,6 +18,7 @@ private let SAFEAREA_BOTTOM_HEIGHT: CGFloat = (IS_IPHONE_XSERIES ? 34.0 : 0.0)
 open class DDDayScheduleView: UIView {
     
     // MARK: - public
+    ///数据源,set方法内做了排序,所以不是与外部引用了相同对象,外部要查找某个日程所在的下标只能通过ID匹配
     public var datasource: [DDDayScheduleViewItemRepresentable] {
         get {
             return _datasource
@@ -34,7 +35,7 @@ open class DDDayScheduleView: UIView {
     public weak var delegate: DDDayScheduleViewDelegate?
     
     // MARK: - private
-    private var _datasource: [DDDayScheduleViewItemRepresentable] = []
+    var _datasource: [DDDayScheduleViewItemRepresentable] = []
     
     private lazy var scrollView: UIScrollView = {
         let scrollView = UIScrollView()
@@ -64,19 +65,19 @@ open class DDDayScheduleView: UIView {
         return scrollView
     }()
 
-    private let baselineView = DDDayScheduleBaseLineView()
+    let baselineView = DDDayScheduleBaseLineView()
     ///当前时间指示器
     private let timeIndicatorView = DDDayScheduleTimeIndicatorView()
     ///所有日程Item的父视图
-    private let scheduleItemSuperView = UIView()
+    let scheduleItemSuperView = UIView()
     ///保存具体日程view的数组,用于添加日程之前清空之前的view
-    private var scheduleViews: [DDDayScheduleItemView] = []
+    var scheduleViews: [DDDayScheduleItemView] = []
     
     // MARK: - datas
     ///已布局标志位
     private var layouted = false
     ///当前可编辑类型view,手势拖动时就是处理该view,可以是已存在的日程事项,也可以是新建日程view
-    private var currentEditableView: DDScheduleEditableView?
+    var currentEditableView: DDScheduleEditableView?
     ///触摸手势开始时,手指的位置
     private var touchBeginPosition: CGPoint = .zero
 
@@ -107,13 +108,16 @@ open class DDDayScheduleView: UIView {
             make.edges.equalTo(UIEdgeInsets.zero)
         }
         setupPlanItemSuperViewGesture()
+        NotificationCenter.default.addObserver(forName: NSNotification.Name.UIApplicationDidBecomeActive, object: nil, queue: OperationQueue.main) { [weak self](_) in
+            self?.timeIndicatorView.updateTime()
+        }
     }
     
     open override func layoutSubviews() {
         super.layoutSubviews()
         if !layouted {
             layouted = true
-            
+            layoutSubItems()
         }
     }
 }
@@ -177,7 +181,7 @@ private extension DDDayScheduleView {
             } else {
                 if let itemView = self.currentEditableView?.associateItemView {
                     //只有编辑已有的日程,才需要走这里
-                    self.delegate?.dayScheduleView(self, editItem: itemView.model!)
+                    self.delegate?.dayScheduleView(self, editItem: itemView.model, timeInfo: self.currentEditableView!.editMaskView.timeData)
                 } else {
                     self.clearCurrentEditView()
                 }
@@ -359,13 +363,17 @@ private extension DDDayScheduleView {
         //设置baseLineView的editTimeData属性
         self.baselineView.editTimeData = timeData
     }
-    
+}
+
+// MARK: - public func
+public extension DDDayScheduleView {
     /// 清除当前编辑的日程view
-    private func clearCurrentEditView() {
+    func clearCurrentEditView() {
         self.currentEditableView?.resignEditStatus()
         self.currentEditableView = nil
         self.baselineView.editTimeData = nil
     }
+    
 }
 
 internal extension DDDayScheduleView {
