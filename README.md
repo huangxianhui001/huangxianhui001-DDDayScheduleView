@@ -20,6 +20,7 @@ it, simply add the following line to your Podfile:
 pod 'DDDayScheduleView'
 ```
 
+[简书地址](https://www.jianshu.com/p/2f08bf612783)
 ## Author
 
 756673457@qq.com
